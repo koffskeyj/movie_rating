@@ -13,6 +13,7 @@ class Rater(models.Model):
     def __str__(self):
         return str(self.user_id)
 
+
 class Movie(models.Model):
     movie_id = models.IntegerField()
     movie_title = models.CharField(max_length=50)
